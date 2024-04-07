@@ -13,6 +13,7 @@
 		7A6913DA2BC124EC00F5375B /* ScreenAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6913D42BC124EB00F5375B /* ScreenAView.swift */; };
 		7A6913DB2BC124EC00F5375B /* ScreenBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6913D52BC124EC00F5375B /* ScreenBView.swift */; };
 		7A6913DC2BC124EC00F5375B /* ScreenCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6913D62BC124EC00F5375B /* ScreenCView.swift */; };
+		7A9F08F02BC360C100A7A167 /* TabATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F08EF2BC360C100A7A167 /* TabATests.swift */; };
 		7AB724022BBF67770059A7BA /* TCATabNavigationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB724012BBF67770059A7BA /* TCATabNavigationDemoApp.swift */; };
 		7AB724062BBF67790059A7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB724052BBF67790059A7BA /* Assets.xcassets */; };
 		7AB724092BBF67790059A7BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB724082BBF67790059A7BA /* Preview Assets.xcassets */; };
@@ -26,6 +27,16 @@
 		7AB724322BBF721C0059A7BA /* TabBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB724312BBF721C0059A7BA /* TabBView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7A9F08F12BC360C100A7A167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB723F62BBF67770059A7BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB723FD2BBF67770059A7BA;
+			remoteInfo = TCATabNavigationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7A6913D12BC124EB00F5375B /* ScreenEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenEView.swift; sourceTree = "<group>"; };
 		7A6913D22BC124EB00F5375B /* ScreenDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenDView.swift; sourceTree = "<group>"; };
@@ -33,6 +44,8 @@
 		7A6913D42BC124EB00F5375B /* ScreenAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenAView.swift; sourceTree = "<group>"; };
 		7A6913D52BC124EC00F5375B /* ScreenBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenBView.swift; sourceTree = "<group>"; };
 		7A6913D62BC124EC00F5375B /* ScreenCView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenCView.swift; sourceTree = "<group>"; };
+		7A9F08ED2BC360C100A7A167 /* TCATabNavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCATabNavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9F08EF2BC360C100A7A167 /* TabATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabATests.swift; sourceTree = "<group>"; };
 		7AB723FE2BBF67770059A7BA /* TCATabNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCATabNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB724012BBF67770059A7BA /* TCATabNavigationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCATabNavigationDemoApp.swift; sourceTree = "<group>"; };
 		7AB724052BBF67790059A7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A9F08EA2BC360C100A7A167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AB723FB2BBF67770059A7BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,10 +78,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A9F08EE2BC360C100A7A167 /* TCATabNavigationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9F08EF2BC360C100A7A167 /* TabATests.swift */,
+			);
+			path = TCATabNavigationDemoTests;
+			sourceTree = "<group>";
+		};
 		7AB723F52BBF67770059A7BA = {
 			isa = PBXGroup;
 			children = (
 				7AB724002BBF67770059A7BA /* TCATabNavigationDemo */,
+				7A9F08EE2BC360C100A7A167 /* TCATabNavigationDemoTests */,
 				7AB723FF2BBF67770059A7BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				7AB723FE2BBF67770059A7BA /* TCATabNavigationDemo.app */,
+				7A9F08ED2BC360C100A7A167 /* TCATabNavigationDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +170,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7A9F08EC2BC360C100A7A167 /* TCATabNavigationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9F08F52BC360C100A7A167 /* Build configuration list for PBXNativeTarget "TCATabNavigationDemoTests" */;
+			buildPhases = (
+				7A9F08E92BC360C100A7A167 /* Sources */,
+				7A9F08EA2BC360C100A7A167 /* Frameworks */,
+				7A9F08EB2BC360C100A7A167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9F08F22BC360C100A7A167 /* PBXTargetDependency */,
+			);
+			name = TCATabNavigationDemoTests;
+			productName = TCATabNavigationDemoTests;
+			productReference = 7A9F08ED2BC360C100A7A167 /* TCATabNavigationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7AB723FD2BBF67770059A7BA /* TCATabNavigationDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AB7240C2BBF67790059A7BA /* Build configuration list for PBXNativeTarget "TCATabNavigationDemo" */;
@@ -170,6 +218,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					7A9F08EC2BC360C100A7A167 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7AB723FD2BBF67770059A7BA;
+					};
 					7AB723FD2BBF67770059A7BA = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -192,11 +244,19 @@
 			projectRoot = "";
 			targets = (
 				7AB723FD2BBF67770059A7BA /* TCATabNavigationDemo */,
+				7A9F08EC2BC360C100A7A167 /* TCATabNavigationDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A9F08EB2BC360C100A7A167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AB723FC2BBF67770059A7BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +269,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A9F08E92BC360C100A7A167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9F08F02BC360C100A7A167 /* TabATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AB723FA2BBF67770059A7BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,7 +300,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7A9F08F22BC360C100A7A167 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB723FD2BBF67770059A7BA /* TCATabNavigationDemo */;
+			targetProxy = 7A9F08F12BC360C100A7A167 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7A9F08F32BC360C100A7A167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TCATabNavigationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCATabNavigationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCATabNavigationDemo";
+			};
+			name = Debug;
+		};
+		7A9F08F42BC360C100A7A167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TCATabNavigationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCATabNavigationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCATabNavigationDemo";
+			};
+			name = Release;
+		};
 		7AB7240A2BBF67790059A7BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +523,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7A9F08F52BC360C100A7A167 /* Build configuration list for PBXNativeTarget "TCATabNavigationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9F08F32BC360C100A7A167 /* Debug */,
+				7A9F08F42BC360C100A7A167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7AB723F92BBF67770059A7BA /* Build configuration list for PBXProject "TCATabNavigationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
